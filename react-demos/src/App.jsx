@@ -3,6 +3,7 @@ import BasicEffect from "./components/useEffect/BasicEffect"
 import CounterEffect from "./components/useEffect/CounterEffect"
 import DataFetching from "./components/useEffect/DataFetching"
 import FetchDataEffect from "./components/useEffect/FetchDataEffect"
+import ReducerIntro from "./components/useReducer/ReducerIntro"
 
 
 const App = () => {
@@ -18,8 +19,11 @@ const App = () => {
         <FetchDataEffect /> */}
 
         {/* Context API */}
-        <ContextIntro />
-        
+        {/* <ContextIntro /> */}
+
+        {/* useReducer API */}
+        <ReducerIntro />
+
     </div>
   )
 }
