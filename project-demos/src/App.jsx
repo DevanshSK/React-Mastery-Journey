@@ -3,6 +3,7 @@
 // import Meals from "./components/meals-project/Meals"
 
 import ColorToggle from "./components/color-toggle/ColorToggle"
+import HiddenSearchBar from "./components/hidden-search-bar/HiddenSearchBar"
 
 // import Calculator from "./components/calculator/Calculator"
 
@@ -15,7 +16,8 @@ const App = () => {
             {/* <Todo /> */}
             {/* <Meals /> */}
             {/* <Calculator /> */}
-            <ColorToggle />
+            {/* <ColorToggle /> */}
+            <HiddenSearchBar />
         </div>
     )
 }
