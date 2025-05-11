@@ -1,7 +1,9 @@
 // import Counter from "./components/Counter/Counter"
 // import Todo from "./components/todos/Todo"
+// import Meals from "./components/meals-project/Meals"
 
-import Meals from "./components/meals-project/Meals"
+import Calculator from "./components/calculator/Calculator"
+
 
 
 const App = () => {
@@ -9,7 +11,8 @@ const App = () => {
         <div>
             {/* <Counter /> */}
             {/* <Todo /> */}
-            <Meals />
+            {/* <Meals /> */}
+            <Calculator />
         </div>
     )
 }
