@@ -2,7 +2,9 @@
 // import Todo from "./components/todos/Todo"
 // import Meals from "./components/meals-project/Meals"
 
-import Calculator from "./components/calculator/Calculator"
+import ColorToggle from "./components/color-toggle/ColorToggle"
+
+// import Calculator from "./components/calculator/Calculator"
 
 
 
@@ -12,7 +14,8 @@ const App = () => {
             {/* <Counter /> */}
             {/* <Todo /> */}
             {/* <Meals /> */}
-            <Calculator />
+            {/* <Calculator /> */}
+            <ColorToggle />
         </div>
     )
 }
