@@ -3,12 +3,16 @@
 // import Meals from "./components/meals-project/Meals"
 // import Testimonials from "./components/testimonials/Testimonials"
 
-import FormValidation from "./components/form-validation/FormValidation"
+import EcommercePage from "./components/ecommerce-filtering/EcommercePage"
+
+// import FormValidation from "./components/form-validation/FormValidation"
 
 // import Accordian from "./components/accordian/Accordian"
 // import { accordionData } from "./utils/content"
 
 // import Calculator from "./components/calculator/Calculator"
+
+
 
 
 
@@ -27,7 +31,8 @@ const App = () => {
                     <Accordian title={item.title} content={item.content} />
                 ))}
             </div> */}
-            <FormValidation />
+            {/* <FormValidation /> */}
+            <EcommercePage />
         </>
     )
 }
