@@ -3,8 +3,10 @@
 // import Meals from "./components/meals-project/Meals"
 // import Testimonials from "./components/testimonials/Testimonials"
 
-import Accordian from "./components/accordian/Accordian"
-import { accordionData } from "./utils/content"
+import FormValidation from "./components/form-validation/FormValidation"
+
+// import Accordian from "./components/accordian/Accordian"
+// import { accordionData } from "./utils/content"
 
 // import Calculator from "./components/calculator/Calculator"
 
@@ -20,11 +22,12 @@ const App = () => {
             {/* <ColorToggle /> */}
             {/* <HiddenSearchBar /> */}
             {/* <Testimonials /> */}
-            <div className="accordion">
+            {/* <div className="accordion">
                 {accordionData.map((item) => (
                     <Accordian title={item.title} content={item.content} />
                 ))}
-            </div>
+            </div> */}
+            <FormValidation />
         </>
     )
 }
