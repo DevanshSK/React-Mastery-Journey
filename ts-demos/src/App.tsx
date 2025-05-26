@@ -2,16 +2,25 @@
 // import Button from "./components/Button"
 // import User from "./components/User"
 
-import RFEIntro from "./components/ref-forms-and-events/RFEIntro"
-// import UseStateIntro from "./components/usestate/UseStateIntro"
-
 // # Reusable Prop Types
 // import AdminInfo from "./components/reusable-types/AdminInfo"
 // import UserInfo from "./components/reusable-types/UserInfo"
 // import type { AdminInfoType, Info } from "./types/types"
 
-
 // # Types for UseState
+// import UseStateIntro from "./components/usestate/UseStateIntro"
+
+// # Forms, Events and Refs
+// import RFEIntro from "./components/ref-forms-and-events/RFEIntro"
+
+// # Context API in TS
+// import ContextIntro from "./components/context-api/ContextIntro";
+
+// # useReducer in TS
+import UseReducerIntro from "./components/use-reducers/UseReducerIntro"
+
+
+
 
 
 const App = () => {
@@ -71,8 +80,16 @@ const App = () => {
             {/* # Types for UseState */}
 
             {/* # Types for useRefs, forms and Events */}
-            <RFEIntro />
+            {/* <RFEIntro /> */}
             {/* # Types for useRefs, forms and Events */}
+
+            {/* # Context API in TS */}
+            {/* <ContextIntro /> */}
+            {/* # Context API in TS */}
+
+            {/* # UseReducer in TS */}
+            <UseReducerIntro />
+            {/* # UseReducer in TS */}
         </div>
     )
 }
