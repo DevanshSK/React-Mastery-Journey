@@ -17,8 +17,10 @@
 // import ContextIntro from "./components/context-api/ContextIntro";
 
 // # useReducer in TS
-import UseReducerIntro from "./components/use-reducers/UseReducerIntro"
+// import UseReducerIntro from "./components/use-reducers/UseReducerIntro"
 
+// # useEffect in TS
+import UseEffectIntro from "./components/use-effect/UseEffectIntro"
 
 
 
@@ -88,8 +90,12 @@ const App = () => {
             {/* # Context API in TS */}
 
             {/* # UseReducer in TS */}
-            <UseReducerIntro />
+            {/* <UseReducerIntro /> */}
             {/* # UseReducer in TS */}
+
+            {/* # useEffect in TS */}
+            <UseEffectIntro />
+            {/* # useEffect in TS */}
         </div>
     )
 }
