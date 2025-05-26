@@ -1,9 +1,11 @@
-import MyComponent from "./MyComponent"
+// import MyComponent from "./MyComponent"
+import UserList from "./UserList"
 
 const UseEffectIntro = () => {
     return (
         <div>
-            <MyComponent />
+            {/* <MyComponent /> */}
+            <UserList />
         </div>
     )
 }
