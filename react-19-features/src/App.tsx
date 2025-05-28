@@ -1,5 +1,6 @@
 import ActionIntro from "./components/actions/ActionIntro"
 import ContextIntro from "./components/contexts/ContextIntro"
+import ActionStateIntro from "./components/use-action-state/ActionStateIntro"
 import UseFormStatusDemo from "./components/use-form-status/UseFormStatusDemo"
 import UseIntro from "./components/use/UseIntro"
 
@@ -22,7 +23,12 @@ const App = () => {
       </div>
 
       {/* useFormStatus hook */}
-      <UseFormStatusDemo />
+      <div className="hidden">
+        <UseFormStatusDemo />
+      </div>
+
+      {/* useActionState demo */}
+      <ActionStateIntro />
 
     </div>
   )
