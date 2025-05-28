@@ -1,3 +1,4 @@
+import ActionIntro from "./components/actions/ActionIntro"
 import ContextIntro from "./components/contexts/ContextIntro"
 import UseIntro from "./components/use/UseIntro"
 
@@ -5,10 +6,17 @@ const App = () => {
   return (
     <div className="p-5 flex flex-col gap-5">
       {/* Data Fetching by use hook. */}
-      <UseIntro />
+      <div className="hidden">
+        <UseIntro />
+      </div>
 
       {/* Context with React 19 */}
-      <ContextIntro />
+      <div className="hidden">
+        <ContextIntro />
+      </div>
+
+      {/* Actions in React 19 */}
+      <ActionIntro />
 
     </div>
   )
