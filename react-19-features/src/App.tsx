@@ -1,5 +1,6 @@
 import ActionIntro from "./components/actions/ActionIntro"
 import ContextIntro from "./components/contexts/ContextIntro"
+import UseFormStatusDemo from "./components/use-form-status/UseFormStatusDemo"
 import UseIntro from "./components/use/UseIntro"
 
 const App = () => {
@@ -16,7 +17,12 @@ const App = () => {
       </div>
 
       {/* Actions in React 19 */}
-      <ActionIntro />
+      <div className="hidden">
+        <ActionIntro />
+      </div>
+
+      {/* useFormStatus hook */}
+      <UseFormStatusDemo />
 
     </div>
   )
