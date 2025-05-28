@@ -2,6 +2,7 @@ import ActionIntro from "./components/actions/ActionIntro"
 import ContextIntro from "./components/contexts/ContextIntro"
 import ActionStateIntro from "./components/use-action-state/ActionStateIntro"
 import UseFormStatusDemo from "./components/use-form-status/UseFormStatusDemo"
+import UseTransitionIntro from "./components/use-transition-hook/UseTransitionIntro"
 import UseIntro from "./components/use/UseIntro"
 
 const App = () => {
@@ -28,7 +29,12 @@ const App = () => {
       </div>
 
       {/* useActionState demo */}
-      <ActionStateIntro />
+      <div className="hidden">
+        <ActionStateIntro />
+      </div>
+
+      {/* useTransition hook demo */}
+      <UseTransitionIntro />
 
     </div>
   )
