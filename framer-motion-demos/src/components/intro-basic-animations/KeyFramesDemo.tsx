@@ -1,6 +1,6 @@
 // import { motion } from "motion/react";
-// import PulsingButton from "./PulsingButton";
-import BouncingLoader from "./BouncingLoader";
+import PulsingButton from "./PulsingButton";
+// import BouncingLoader from "./BouncingLoader";
 
 const KeyFramesDemo = () => {
     return (
@@ -19,10 +19,10 @@ const KeyFramesDemo = () => {
             /> */}
 
             {/* Example 1: Pulsing Button */}
-            {/* <PulsingButton /> */}
+            <PulsingButton />
 
             {/* Example 1: Bouncy Loader */}
-            <BouncingLoader />
+            {/* <BouncingLoader /> */}
         </div>
     )
 }

@@ -1,13 +1,19 @@
 // import Introduction from "./components/intro-basic-animations/Introduction"
 // import TransitionsDemo from "./components/intro-basic-animations/TransitionsDemo"
 // import KeyFramesDemo from "./components/intro-basic-animations/KeyFramesDemo"
+
 // import VariantsIntro from "./components/variants/VariantsIntro"
-import FlippingCard from "./components/variants/FlippingCard"
+// import FlippingCard from "./components/variants/FlippingCard"
+
+// import GesturesDemo from "./components/gestures/GesturesDemo"
+// import AnimatedCard from "./components/gestures/AnimatedCard"
+// import ImageGallery from "./components/gestures/ImageGallery"
+import AnimatedShape from "./components/gestures/AnimatedShape"
 
 
 const App = () => {
     return (
-        <div>
+        <div className="min-h-screen flex items-center justify-center">
             {/* Introduction to Animations and Transformations */}
             {/* <Introduction /> */}
 
@@ -19,7 +25,13 @@ const App = () => {
 
             {/* Variants */}
             {/* <VariantsIntro /> */}
-            <FlippingCard />
+            {/* <FlippingCard /> */}
+
+            {/* Gestures Section */}
+            {/* <GesturesDemo /> */}
+            {/* <AnimatedCard /> */}
+            {/* <ImageGallery /> */}
+            <AnimatedShape />
 
         </div>
     )

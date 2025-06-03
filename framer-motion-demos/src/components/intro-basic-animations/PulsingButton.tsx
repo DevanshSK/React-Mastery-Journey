@@ -4,9 +4,7 @@ const PulsingButton = () => {
     return (
         <motion.button
             className="rounded bg-blue-500 text-white px-6 py-2"
-            style={{
-                padding: "8px 20px"
-            }}
+
 
             // Pulsing Animation.
             // animate={{
