@@ -1,3 +1,4 @@
+// ## Basics
 // import Introduction from "./components/intro-basic-animations/Introduction"
 // import TransitionsDemo from "./components/intro-basic-animations/TransitionsDemo"
 // import KeyFramesDemo from "./components/intro-basic-animations/KeyFramesDemo"
@@ -11,7 +12,15 @@
 // import AnimatedShape from "./components/gestures/AnimatedShape"
 
 // import StaggerAnimations from "./components/stagger-animations/StaggerAnimations"
-import AnimatedGallery from "./components/stagger-animations/AnimatedGallery"
+// import AnimatedGallery from "./components/stagger-animations/AnimatedGallery"
+
+
+// ## Intermediate
+// import UseMotionValueDemo from "./components/use-motion-value-hook/UseMotionValueDemo"
+// import RangeSlider from "./components/use-motion-value-hook/RangeSlider"
+
+import DraggableBox from "./components/use-transitions-demo.tsx/DraggableBox"
+
 
 
 const App = () => {
@@ -38,7 +47,14 @@ const App = () => {
 
             {/* Stagger Animations */}
             {/* <StaggerAnimations /> */}
-            <AnimatedGallery />
+            {/* <AnimatedGallery /> */}
+
+            {/* useMotionValue + useSpring Hook */}
+            {/* <UseMotionValueDemo /> */}
+            {/* <RangeSlider /> */}
+
+            {/* useTransition hook */}
+            <DraggableBox />
 
         </div>
     )
