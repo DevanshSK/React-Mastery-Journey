@@ -8,7 +8,10 @@
 // import GesturesDemo from "./components/gestures/GesturesDemo"
 // import AnimatedCard from "./components/gestures/AnimatedCard"
 // import ImageGallery from "./components/gestures/ImageGallery"
-import AnimatedShape from "./components/gestures/AnimatedShape"
+// import AnimatedShape from "./components/gestures/AnimatedShape"
+
+// import StaggerAnimations from "./components/stagger-animations/StaggerAnimations"
+import AnimatedGallery from "./components/stagger-animations/AnimatedGallery"
 
 
 const App = () => {
@@ -31,7 +34,11 @@ const App = () => {
             {/* <GesturesDemo /> */}
             {/* <AnimatedCard /> */}
             {/* <ImageGallery /> */}
-            <AnimatedShape />
+            {/* <AnimatedShape /> */}
+
+            {/* Stagger Animations */}
+            {/* <StaggerAnimations /> */}
+            <AnimatedGallery />
 
         </div>
     )
