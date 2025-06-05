@@ -22,7 +22,8 @@
 // import DraggableBox from "./components/use-transitions-demo.tsx/DraggableBox"
 // import ScrollAnimationsDemo from "./components/scroll-animations/ScrollAnimationsDemo"
 // import UseScrollDemo from "./components/scroll-animations/UseScrollDemo"
-import UseScrollExample from "./components/scroll-animations/UseScrollExample"
+// import UseScrollExample from "./components/scroll-animations/UseScrollExample"
+import ExerciseDemo from "./exercises/ExerciseDemo"
 
 
 
@@ -63,7 +64,10 @@ const App = () => {
             {/* Scroll Animations */}
             {/* <ScrollAnimationsDemo /> */}
             {/* <UseScrollDemo /> */}
-            <UseScrollExample />
+            {/* <UseScrollExample /> */}
+
+            {/* Exercises */}
+            <ExerciseDemo />
         </div>
     )
 }
