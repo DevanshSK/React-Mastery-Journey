@@ -19,13 +19,17 @@
 // import UseMotionValueDemo from "./components/use-motion-value-hook/UseMotionValueDemo"
 // import RangeSlider from "./components/use-motion-value-hook/RangeSlider"
 
-import DraggableBox from "./components/use-transitions-demo.tsx/DraggableBox"
+// import DraggableBox from "./components/use-transitions-demo.tsx/DraggableBox"
+// import ScrollAnimationsDemo from "./components/scroll-animations/ScrollAnimationsDemo"
+// import UseScrollDemo from "./components/scroll-animations/UseScrollDemo"
+import UseScrollExample from "./components/scroll-animations/UseScrollExample"
 
 
 
 const App = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center">
+        // <div className="min-h-screen flex items-center justify-center">
+        <div className="">
             {/* Introduction to Animations and Transformations */}
             {/* <Introduction /> */}
 
@@ -54,8 +58,12 @@ const App = () => {
             {/* <RangeSlider /> */}
 
             {/* useTransition hook */}
-            <DraggableBox />
+            {/* <DraggableBox /> */}
 
+            {/* Scroll Animations */}
+            {/* <ScrollAnimationsDemo /> */}
+            {/* <UseScrollDemo /> */}
+            <UseScrollExample />
         </div>
     )
 }
