@@ -3,6 +3,8 @@
 // import TransitionsDemo from "./components/intro-basic-animations/TransitionsDemo"
 // import KeyFramesDemo from "./components/intro-basic-animations/KeyFramesDemo"
 
+import TransitionsExercises from "./exercises/transitions/TransitionsExercises"
+
 // import VariantsIntro from "./components/variants/VariantsIntro"
 // import FlippingCard from "./components/variants/FlippingCard"
 
@@ -23,7 +25,11 @@
 // import ScrollAnimationsDemo from "./components/scroll-animations/ScrollAnimationsDemo"
 // import UseScrollDemo from "./components/scroll-animations/UseScrollDemo"
 // import UseScrollExample from "./components/scroll-animations/UseScrollExample"
-import ExerciseDemo from "./exercises/ExerciseDemo"
+
+
+// ## Exercises
+// import ExerciseDemo from "./exercises/transformations/ExerciseDemo"
+
 
 
 
@@ -67,7 +73,9 @@ const App = () => {
             {/* <UseScrollExample /> */}
 
             {/* Exercises */}
-            <ExerciseDemo />
+            {/* <ExerciseDemo /> */}
+            <TransitionsExercises />
+
         </div>
     )
 }

@@ -1,9 +1,9 @@
-import BouncingCircle from "./transformations/BouncingCircle"
-import Box from "./transformations/Box"
-import ComplexAnimation from "./transformations/ComplexAnimation"
-import SequentialBoxes from "./transformations/SequentialBoxes"
-import SkewRectangle from "./transformations/SkewRectangle"
-import SpinningIcon from "./transformations/SpinningIcon"
+import BouncingCircle from "./BouncingCircle"
+import Box from "./Box"
+import ComplexAnimation from "./ComplexAnimation"
+import SequentialBoxes from "./SequentialBoxes"
+import SkewRectangle from "./SkewRectangle"
+import SpinningIcon from "./SpinningIcon"
 
 const ExerciseDemo = () => {
     return (
