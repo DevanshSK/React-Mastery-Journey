@@ -3,7 +3,9 @@
 // import TransitionsDemo from "./components/intro-basic-animations/TransitionsDemo"
 // import KeyFramesDemo from "./components/intro-basic-animations/KeyFramesDemo"
 
+import KeyframesExercise from "./exercises/keyframes/KeyframesExercise"
 import TransitionsExercises from "./exercises/transitions/TransitionsExercises"
+import VariantsExercise from "./exercises/variants/VariantsExercise"
 
 // import VariantsIntro from "./components/variants/VariantsIntro"
 // import FlippingCard from "./components/variants/FlippingCard"
@@ -74,7 +76,9 @@ const App = () => {
 
             {/* Exercises */}
             {/* <ExerciseDemo /> */}
-            <TransitionsExercises />
+            {/* <TransitionsExercises /> */}
+            {/* <KeyframesExercise /> */}
+            <VariantsExercise />
 
         </div>
     )
