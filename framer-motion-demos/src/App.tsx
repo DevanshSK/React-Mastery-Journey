@@ -3,9 +3,13 @@
 // import TransitionsDemo from "./components/intro-basic-animations/TransitionsDemo"
 // import KeyFramesDemo from "./components/intro-basic-animations/KeyFramesDemo"
 
+import GestureExercises from "./exercises/gestures/GestureExercises"
 import KeyframesExercise from "./exercises/keyframes/KeyframesExercise"
+import StaggerExercise from "./exercises/stagger/StaggerExercise"
 import TransitionsExercises from "./exercises/transitions/TransitionsExercises"
+import MotionSpringExercises from "./exercises/useMotionAndSpring/MotionSpringExercises"
 import VariantsExercise from "./exercises/variants/VariantsExercise"
+import WhileInViewExercises from "./exercises/whileInView/WhileInViewExercises"
 
 // import VariantsIntro from "./components/variants/VariantsIntro"
 // import FlippingCard from "./components/variants/FlippingCard"
@@ -78,7 +82,11 @@ const App = () => {
             {/* <ExerciseDemo /> */}
             {/* <TransitionsExercises /> */}
             {/* <KeyframesExercise /> */}
-            <VariantsExercise />
+            {/* <VariantsExercise /> */}
+            {/* <GestureExercises /> */}
+            {/* <StaggerExercise /> */}
+            {/* <MotionSpringExercises /> */}
+            <WhileInViewExercises />
 
         </div>
     )
