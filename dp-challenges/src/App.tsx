@@ -1,9 +1,11 @@
-import LayoutChallenges from "./challenges/layout/LayoutChallenges"
+import ContainerChallenge from "./challenges/container/ContainerChallenge"
+// import LayoutChallenges from "./challenges/layout/LayoutChallenges"
 
 const App = () => {
     return (
         <div>
-            <LayoutChallenges />
+            {/* <LayoutChallenges /> */}
+            <ContainerChallenge />
         </div>
     )
 }

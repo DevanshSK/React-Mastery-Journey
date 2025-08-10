@@ -1,6 +1,9 @@
 // import LayoutPattern from "./components/layout/LayoutPattern"
 // import RenderListPattern from "./components/layout/render-list-pattern/RenderListPattern"
-import Modals from "./components/layout/modals/Modals"
+// import Modals from "./components/layout/modals/Modals"
+
+
+import ContainerComponentsPattern from "./components/container-components/ContainerComponentsPattern"
 
 const App = () => {
     return (
@@ -8,7 +11,10 @@ const App = () => {
             {/* Layout Pattern */}
             {/* <LayoutPattern /> */}
             {/* <RenderListPattern /> */}
-            <Modals />
+            {/* <Modals /> */}
+
+            {/* Container Components Pattern */}
+            <ContainerComponentsPattern />
         </>
     )
 }
